@@ -44,7 +44,7 @@ const StyledText = styled.div`
 export default function Content(props) {
   const { content } = props;
 
-  if (!content) return <h3>Loading...</h3>;
+  if (!content) return <h4>Loading...</h4>;
 
   return (
     <StyledContent>
