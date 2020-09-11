@@ -19,7 +19,7 @@ const StyledPhoto = styled.div`
 export default function Photo(props) {
   const { image } = props;
 
-  if (!image) return <h3>Loading...</h3>;
+  if (!image) return <h4>Loading...</h4>;
 
   return (
     <div className="Photo">
